@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Baskerville,Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+button,
+a {
+   cursor: pointer;
+}
+
+
+
+
+

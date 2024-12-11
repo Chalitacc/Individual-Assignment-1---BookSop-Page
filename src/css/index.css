@@ -1,0 +1,166 @@
+
+.show-of-product{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    padding-bottom: 1rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.product-info-and-price {
+    border: 1px solid black;
+    box-shadow: 2px 2px 5px var(--foreground-color);
+    margin-top: 2rem;
+    padding: 1rem 1rem; 
+    margin: 1rem;
+}
+
+.series-description {
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    font-size:medium;
+}
+
+.delivery-detail{
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    list-style: circle;
+    line-height: 1.8;
+    font-size: medium;
+}
+
+.book-info{
+    border: 2px solid black;
+    box-shadow: 2px 2px 5px var(--foreground-color);
+    margin: 1rem;
+    padding: 1rem 1rem; 
+    
+}
+
+.title-product-information{
+    padding-bottom:  8px;
+    font-size: 1.5rem;
+    text-decoration: underline;
+}   
+
+.title-detail{
+    padding-bottom: 18px;
+    padding-top: 18px;
+}
+
+.detail-info{
+    padding-bottom: 18px;
+}
+
+/* ---------------------------------------------------- */
+  
+
+body {
+    min-height: 100vh;
+    font-family: "Baskervville", Arial, Helvetica, sans-serif;
+   background-color: var(--background-color);
+   /* display: flex;
+   flex-direction: column;
+   overflow-x: auto; */
+}
+
+img {
+    max-width: 100%;
+}
+
+h1{
+    font-size: 2.5rem;
+    color: rgb(56, 57, 62);
+    text-align: center;
+    
+}
+
+h2 {
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+
+h3 {
+    font-size: 3rem;
+    text-align: right;
+}
+
+nav > p {
+    font-size: 1rem;
+    font-style: italic;
+    color: rgb(56, 57, 62);
+    text-align: center;
+}
+
+header{
+    background-image: linear-gradient(to bottom, orange, gold);
+    width: 100%;
+    position: fixed;
+    padding-top: 0.5rem;
+    
+}
+
+header ul {
+    height: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.2rem;
+    list-style: none;
+}
+
+button {
+    display: inline-block;
+    background-color: gold;
+    box-shadow: 0 5px orange;
+    width: 100px;
+    height: 25px;
+   font-size: 14px;
+   border-radius: 14px;
+   border: none;
+}
+
+button:active {
+    background-color: red;
+}
+
+button:hover {
+    background-color: grey;
+    transform: translateY(4px);
+    
+}
+a{
+    color: var(--foreground-color);
+}
+
+a:hover{
+    color: var(--background-color);
+    transition: color 0.2s linear;
+}  
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding-top: 9rem;
+    flex-grow: 1;
+}
+
+
+
+footer {
+    height: 3rem;
+    border-top: 1px solid gold;
+    background-image: linear-gradient(to bottom, orange, gold);
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+
+
+
+

@@ -1,0 +1,12 @@
+:root {
+    /*colors*/
+    --background-color: rgb(244, 241, 236); 
+    --foreground-color: #000000;
+    --hover-color: #16231e; 
+
+
+     /* Spacing */
+     --spacing-small: 1rem;
+     --spacing-medium: 2rem; 
+     --spacing-large: 4rem;
+}

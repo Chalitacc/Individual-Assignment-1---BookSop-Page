@@ -1,0 +1,184 @@
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Baskerville", Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    top: 0;
+    padding: 10px;
+    background-image: linear-gradient(to bottom, orange, gold);
+    margin-top: 0px;
+}
+
+h1{
+
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(56, 57, 62);
+}
+
+p{
+    font-size: 1rem;
+    font-style: italic;
+    color: rgb(56, 57, 62);
+    text-align: center;
+}
+
+.link-home{
+    color:  rgb(56, 57, 62) ;
+}
+/*form section*/
+
+.checkout__overview-title{
+    padding-top: var(--spacing-small);
+    padding-left: var(--spacing-small);
+}
+
+.flex-container{
+    display: flex;
+    margin-left: var(--spacing-small);
+    margin-right: var(--spacing-small);
+    margin-top: var(--spacing-small);
+    gap: 50px; /*fiks*/
+   
+}
+
+/*contact info section*/
+
+.contact__info-container{
+    display: flex;
+    padding-left: var(--spacing-small);
+    padding-right: var(--spacing-small);
+    font-size: 18px;
+    padding-bottom: var(--spacing-medium);
+    border: 3px solid black;
+    gap: 10px;
+    flex-direction: column;
+    width: 500px;
+    
+   
+}
+
+.contant__info-fname {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__info-input{
+    width: 250px;
+}
+
+.contact__info-title{
+    font-weight: 600;
+    margin-bottom: var(--spacing-small);
+    flex: 1;
+    flex-direction: column;
+}
+
+.contant__info-delivery {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact__info-select{
+    width:250px;
+}
+select{
+    width: 100%;
+}
+
+
+
+
+
+
+/*summary section*/
+
+.basket__book-container{
+    flex: 1;
+    align-content: center;
+    height: 250px;
+    border: 3px solid black;
+    padding-left: var(--spacing-small);
+    padding-right: var(--spacing-small);
+    text-align: end;
+    background-color: white;
+    box-shadow: 0 3px 3px 3px rgb(244, 241, 236) ;
+    position: relative;
+}
+
+.basket__book{
+    text-align: start;
+
+}
+
+.basket__book-info{
+    font-size: 16px;
+    line-height: 2;
+}
+
+.basket__book-total{
+    text-align: start;
+    font-size: 20px;
+    padding-top: var(--spacing-small);
+}
+
+.basket__book-price{
+    text-align: end;
+    margin-right: var(--spacing-small);
+    font-size: 30px;
+}
+
+.basket__book-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: var(--spacing-small);
+    /*får ikke lagt inn farge på button*/
+
+}
+
+.basket__book-button1{
+    width: 200px;
+    padding: 6px;
+    background-color: gold;
+    border: none;
+    border-radius: 6px;
+}
+.basket__book-button1:hover{
+    background-color: grey;
+    color: white;
+    transition: color 0.2s linear;
+}
+
+
+
+
+input:focus{
+    background-color: white;
+}
+
+
+footer {
+    height: 3rem;
+    border-top: 1px solid gold;
+    background-image: linear-gradient(to bottom, orange, gold);
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 0.5rem;
+}
+
+
+
+
